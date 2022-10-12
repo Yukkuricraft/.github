@@ -1,4 +1,4 @@
-![Banner](https://raw.githubusercontent.com/Yukkuricraft/YukkuricraftBugReports/master/banners/YukkuriBaner%20-%20hat%203%20raw.png)
+![Banner](https://raw.githubusercontent.com/Yukkuricraft/YukkuricraftBugReports/master/banners/YukkuriBanner%20-%20hat%203%20variantCircle.png)
 
 # What The HECK Is This
 
