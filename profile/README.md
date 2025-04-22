@@ -20,13 +20,10 @@ The [Yukkuricraft/yukkuricraft.net](https://github.com/Yukkuricraft/yukkuricraft
 
 ## How is Server Run
 
-The Yukkuricraft server ~~is~~ will eventually be run with tooling contained in three repos:
+The Yukkuricraft server is run with tooling contained in two repos:
 
 - `Yukkuricraft/Yukkuricraft`
 - `Yukkuricraft/YakumoDash`
-- `Yukkuricraft/Patchouli`
-
-(It's currently still running in the legacy monohost setup)
 
 #### Yukkuricraft/Yukkuricraft
 
@@ -34,14 +31,16 @@ This repo primarily contains the containerized Minecraft server setup utilizing 
 
 This repo also contains the python source code for both the config generators to enable our dynamic env generation as well as the API code which exposes a method for interacting with the backend from `Yukkuricraft/YakumoDash`
 
-#### Yukkuricraft/Patchouli
-
-Patchouli solves the problem of wanting to separate out the dozens of various Minecraft config files into a VCS for all the great VCS benefits.
-
-Patchouli will identify and operate on any config files it finds and integrates with the FS layout assumptions of `Yukkuricraft/Yukkuricraft` to allow additional functionality like copying or syncing configs from one environment to another.
-
 #### Yukkuricraft/YakumoDash
 
 YakumoDash is our server cluster management web interface.
 
 YakumoDash allows users to manage `Yukkuricraft/Yukkuricraft` from a web interface to do everything from creating, deleting, or editing environments, attaching to and interacting with a console for any running Minecraft server in any environment, managing the server filesystems for plugin and other general management, and more.
+
+
+#### Yukkuricraft/Patchouli (Not used atm)
+
+Patchouli solves the problem of wanting to separate out the dozens of various Minecraft config files into a VCS for all the great VCS benefits.
+
+Patchouli will identify and operate on any config files it finds and integrates with the FS layout assumptions of `Yukkuricraft/Yukkuricraft` to allow additional functionality like copying or syncing configs from one environment to another.
+
